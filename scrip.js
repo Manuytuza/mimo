@@ -23,3 +23,11 @@ const tecdata = {
 
 tecdata.display(true);
 
+function evolucion(dios,fuerza) {
+    if (dios==="Dios" && fuerza==="alta") {
+        console.log("lograremos evolucionar con Dios" );
+    } else if (dios==="Dios"&& fuerza==="baja") { console.log("DIOS no puede actuar sin nuestra desicion");
+    } else { console.log("necesitamos a DIOS y 100% de fuerzas")}
+}
+evolucion("Dios","alta");
+
